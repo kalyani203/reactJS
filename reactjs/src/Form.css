@@ -1,0 +1,94 @@
+.Form{
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    margin: 0 5px;
+    display: block;
+    font-size: 12px;
+    float: left;
+    width: 70px;
+}
+.label:before, h6:before{
+    content: '*';
+    color: #ff0000;
+}
+input[type=text], textarea{
+    width: 30%;
+    padding:5px;
+    font-size: 12px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid lightsteelblue;
+    height: 20px;
+}
+
+input[type=radio]{
+    padding:5px;
+    font-size: 12px;
+}
+
+select{
+    width: 31%;
+    height: 30px;
+    font-size: 13px;
+}
+
+.gender{
+    width: auto;
+    float: none;
+    display: inline-block;
+}
+
+button[type=submit]{
+    background-color: #327AB7;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.fields{
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+}
+
+fieldset{
+    border: none;
+}
+
+.validateMsg{
+    color: #ff0000;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #D9EDF6;
+    color: #426B84;
+}
